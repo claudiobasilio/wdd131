@@ -1,0 +1,15 @@
+body {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+header {
+    background-color:coral;
+}
