@@ -1,15 +1,24 @@
 body {
     display: grid;
-    grid-template-columns: 1fr 3fr;
+    grid-template-columns: 1fr 3fr; 
 }
 
+header {
+    grid-column: 1 / -1;
+    background-color:coral;
+}
 
 nav {
     display: flex;
     justify-content: space-around;
 }
 
+main {
+    grid-column: 1 / -1;
+}
 
-header {
-    background-color:coral;
+footer {
+    grid-column: 1 / -1;
+    background: lightgray;
+    text-align: center;
 }
